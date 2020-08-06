@@ -3,4 +3,4 @@
 
 # YOUR CODE HERE
 
-print(2 ** 65536) #Javascript would give an Infinity number (see 01_bignum.js to see it), but python would actually return each individual digit.
+print(2 ** 65536) #Javascript would give an Infinity message (see 01_bignum.js to see it), but python would actually return each individual digit.
