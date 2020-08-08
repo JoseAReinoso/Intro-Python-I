@@ -8,12 +8,12 @@ num = int(num)
 
 # YOUR CODE HERE
 
-def is_even(number):
+def is_even(num):
     if (num % 2) == 0:
-        return "number is Even"
+        return True
 
     else:
-        return "number is Odd"
+        return False
 
 print(is_even(num))
 
