@@ -12,7 +12,7 @@ import sys
 # YOUR CODE HERE
 
 for index, value in enumerate(sys.argv): #enumerate will allow me to use te index, pretty cool!
-    print(value , f"input # {index}")
+    print(value , f"users input # {index}")
 
 # Print out the OS platform you're using:
 # YOUR CODE HERE
