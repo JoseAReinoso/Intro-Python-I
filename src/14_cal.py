@@ -51,7 +51,7 @@ elif len(args) == 2:
   year = args [1]
 #5  
 else:
-  print("Please provide either a month or year")
+  input("please provide a month and year int the following format xx xxxx")
 
 
 print(month, year) 
