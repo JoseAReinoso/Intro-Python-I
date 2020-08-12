@@ -11,7 +11,7 @@ https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
 
 # YOUR CODE HERE
 
-F = open('foo.txt') #r to read and w write  = #you can do this like this too  = f = open('foo.txt', 'r' )
+F = open('foo.txt', 'r') #r to read and w write  = #you can do this like this too  = f = open('foo.txt', 'r' )
 with open('foo.txt') as F:
   print(F.read(), "from the second example")
   F.close()

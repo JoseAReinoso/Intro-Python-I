@@ -51,8 +51,8 @@ elif len(args) == 2:
   year = args [1]
 #5  
 else:
-  input("please provide a month and year int the following format xx xxxx")
+  print("please provide a month and year int the following format xx xxxx")
 
 
-print(month, year) 
+print(calendar.month(year,month)) 
 

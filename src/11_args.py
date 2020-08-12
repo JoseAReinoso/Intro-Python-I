@@ -8,7 +8,7 @@
 def f1(a,b):
     return a + b
 
-print(f1(1, 2))
+print(f1(1, 2), "normal function, positional arguments")
 
 # Write a function f2 that takes any number of integer arguments and returns the
 # sum.
@@ -17,7 +17,7 @@ print(f1(1, 2))
 # YOUR CODE HERE
 
 def f2(*args):
-    print(args, "f2 args")
+    #print(args, "f2 args")
     return sum(args)
 
 print(f2(1))                    # Should print 1
@@ -44,7 +44,7 @@ print(f2(*a))    # Should print 22
 # Note: Google "python default arguments" for a hint.
 
 # YOUR CODE HERE
-def f3(a,b=1): # here the 1 will be just the default value in this case.
+def f3(a,b=1): # here the 1 will be just the default value in this case unless a different argument is passed wich overwrites it.
     return a + b
   
 
